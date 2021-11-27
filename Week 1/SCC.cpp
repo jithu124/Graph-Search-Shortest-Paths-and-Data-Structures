@@ -39,11 +39,7 @@ class Graph{
                 }
             }
 
-            total_nodes = Totalnodes();//graph.size();
-            for(auto i = 0; i<graph.size();i++)
-            {
-
-            }
+            total_nodes = Totalnodes();
 
             //cout<<total_nodes<<endl;
             visited = vector<bool>(total_nodes,false);
